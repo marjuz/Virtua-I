@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Admin page";
+}
+
+
+        <div class="jumb">
+
+            <h1>Admin page</h1>
+
+        </div>
+
+        <div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("canEdit"))
+                {
+                    <p>@Html.ActionLink("List of users", "List", "Admin")</p>
+                    <p>@Html.ActionLink("List of questions", "Index", "QuestionForUsers")</p>
+                    <p>@Html.ActionLink("List of answers", "Index", "UserAnswerToQuestions")</p>
+                }
+            }
+        </div>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtualizer", "Virtualizer\Virtualizer.csproj", "{F996A368-F9F1-4463-BBC5-C037AD3C2304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C144BEF5-0A2A-4BC1-9566-3CBB20B93E5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E618D851-3E98-4477-ACE2-9AC0F4649987}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{84A84719-5429-42EE-909A-4AA914BCE100}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Virtualizer.json = PublishScripts\Templates\Virtualizer.json
+		PublishScripts\Templates\Virtualizer.param.dev.json = PublishScripts\Templates\Virtualizer.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F996A368-F9F1-4463-BBC5-C037AD3C2304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F996A368-F9F1-4463-BBC5-C037AD3C2304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F996A368-F9F1-4463-BBC5-C037AD3C2304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F996A368-F9F1-4463-BBC5-C037AD3C2304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E618D851-3E98-4477-ACE2-9AC0F4649987} = {C144BEF5-0A2A-4BC1-9566-3CBB20B93E5D}
+		{84A84719-5429-42EE-909A-4AA914BCE100} = {C144BEF5-0A2A-4BC1-9566-3CBB20B93E5D}
+	EndGlobalSection
+EndGlobal

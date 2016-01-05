@@ -1,0 +1,50 @@
+﻿@model Virtualizer.Models.UserAnswerToQuestion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UserAnswerToQuestion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserForAnswerID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserForAnswerID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserAnswer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserAnswer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UserAnswerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,59 @@
+﻿@using Virtualizer.Models
+@model Virtualizer.Models.QuestionForUsers
+@{
+    ViewBag.Title = "Question page";
+}
+
+<h3 class="red"> @ViewBag.Message </h3>
+
+@using (Html.BeginForm("QuestionAnswered", "Cm"))
+            {
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.QuestionID)
+        <div class="question">
+            @Html.DisplayFor(model => Model.Question)
+            @Html.ValidationMessageFor(model => Model.Question, "", new { @class = "question" })
+        </div>
+
+        <div class="comment">
+            Comment
+        </div>
+        <div class="answer">
+            @Html.EditorFor(model => Model.Comment, new { htmlAttributes = new { @class = "answer" } })
+            @Html.ValidationMessageFor(model => Model.Comment, "", new { @class = "answer" })
+        </div>
+
+
+        <div>
+            <table>
+                <tr>
+                    <td class="table-cell"></td>
+                    <td>
+                        <form class="radiob">
+                            <input type="radio" name="chosenType" value="Open">   Open<br>
+                            <input type="radio" name="chosenType" value="Closed">    Closed<br>
+                            <input type="radio" name="chosenType" value="Arrey">    Range
+                            | min Value  <input type="number" name="minVal" placeholder="min" class="range" size="5"> | max Value <input type="number" name="maxVal" placeholder="max" class="range" size="5"> <br>
+                            <input type="radio" name="chosenType" value="Date">    Date<br>
+                        </form>
+                    </td>
+
+                </tr>
+            </table>
+
+        </div>
+        <div class="form-group">
+            <div class="answer-button">
+                <input type="submit" value="Creat question" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+            @Scripts.Render("~/bundles/jquery")
+        }
