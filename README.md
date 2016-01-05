@@ -1,41 +1,41 @@
 # Virtua-I
 Project to create virtual profile
 
-1.	Pavadinimas. Virtual I programinë—s árangos sukûrimas 
-2.	Uşduotis. Sukurti programinæ árangà, kuri leistø vartotojams susikurti savo virtualø profilá. Vartotojai galës, kurti klausimus, á kuriuos atsakinës visi vartotojai. PÁ klausimus ir atsakymus registruos á kiekvieno vartotojo profilá. 
-Vartotojai gali uşduoti klausimus, bet ne daugiau kaip po 1 per dienà. 
+1.	Pavadinimas. Virtual I programinÄ—s Ä¯rangos sukÅ«rimas 
+2.	UÅ¾duotis. Sukurti programinÄ™ Ä¯rangÄ…, kuri leistÅ³ vartotojams susikurti savo virtualÅ³ profilÄ¯. Vartotojai galÄ—s, kurti klausimus, Ä¯ kuriuos atsakinÄ—s visi vartotojai. PÄ® klausimus ir atsakymus registruos Ä¯ kiekvieno vartotojo profilÄ¯. 
+Vartotojai gali uÅ¾duoti klausimus, bet ne daugiau kaip po 1 per dienÄ…. 
 
-3.	Sistemos paskirtis ir tikslas. Padëti şmonëms susikurti virtualø profilá ir ateityje susirasti á save panağius şmones.  
-4.	Uşsakovas. JMartynas komanda.
+3.	Sistemos paskirtis ir tikslas. PadÄ—ti Å¾monÄ—ms susikurti virtualÅ³ profilÄ¯ ir ateityje susirasti Ä¯ save panaÅ¡ius Å¾mones.  
+4.	UÅ¾sakovas. JMartynas komanda.
 
-5.	Uşduoties atlikimo laikas 4 savaitës.
+5.	UÅ¾duoties atlikimo laikas 4 savaitÄ—s.
 
-6.	Vartotojai. Intelektinæ nuosavybæ kuriantys ir platinantys internete menininkai.
+6.	Vartotojai. IntelektinÄ™ nuosavybÄ™ kuriantys ir platinantys internete menininkai.
 
 7.	Apribojimai sistemai.
-7.1.	PÁ turi veikti narğyklëje.
-7.2.	PÁ kuriama C# programavimo kalba, ASP.Net.
-7.3.	Duomenø prieigai naudojama EF technologijos.
-7.4.	Uşklausø rağymui naudojama Linq technologija.
-7.5.	Duomenø saugojimui naudojama MS SQL duomenø bazë.
+7.1.	PÄ® turi veikti narÅ¡yklÄ—je.
+7.2.	PÄ® kuriama C# programavimo kalba, ASP.Net.
+7.3.	DuomenÅ³ prieigai naudojama EF technologijos.
+7.4.	UÅ¾klausÅ³ raÅ¡ymui naudojama Linq technologija.
+7.5.	DuomenÅ³ saugojimui naudojama MS SQL duomenÅ³ bazÄ—.
 
-8.	Funkciniai reikalavimai.  PÁ yra keliami ğie funkciniai reikalavimai:
-8.1.	Vartotojø prisijungimas ir rolës suteikimas;
-8.2.	Klausimø kûrimas naudojant grafiæ vartotojo sasajà;
-8.3.	Klausimø atsakymas naudojant grafinæ vartotojo sasajà;
-8.4.	Profilio valdymas naudojant grafinæ vartotojo sasajà;
+8.	Funkciniai reikalavimai.  PÄ® yra keliami Å¡ie funkciniai reikalavimai:
+8.1.	VartotojÅ³ prisijungimas ir rolÄ—s suteikimas;
+8.2.	KlausimÅ³ kÅ«rimas naudojant grafiÄ™ vartotojo sasajÄ…;
+8.3.	KlausimÅ³ atsakymas naudojant grafinÄ™ vartotojo sasajÄ…;
+8.4.	Profilio valdymas naudojant grafinÄ™ vartotojo sasajÄ…;
 
-9.	Nefunkciniai reikalavimai. PÁ yra keliami ğie nefunkciniai reikalavimai:
-9.1.	PÁ turi bûti realizuota grafinë — vartotojo sasaja pradiniams duomenims ávesti;
-9.2.	Vartotojo sasaja anglø kalba;
-9.3.	Vartotojo sàsaja turi bûti paprasta, intuityvi ir funkcionali;
-9.4.	Programos reakcijos laikas turi bûti  priimtinas vartotojui. 
+9.	Nefunkciniai reikalavimai. PÄ® yra keliami Å¡ie nefunkciniai reikalavimai:
+9.1.	PÄ® turi bÅ«ti realizuota grafinÄ— â€” vartotojo sasaja pradiniams duomenims Ä¯vesti;
+9.2.	Vartotojo sasaja anglÅ³ kalba;
+9.3.	Vartotojo sasaja turi bÅ«ti paprasta, intuityvi ir funkcionali;
+9.4.	Programos reakcijos laikas turi bÅ«ti  priimtinas vartotojui. 
 
-10.	Vartotojo dokumentacija. Sistemos kûrëjas turi pateikti tokià dokumentacijà:
-10.1.	Ataskaità.
+10.	Vartotojo dokumentacija. Sistemos kÅ«rÄ—jas turi pateikti tokiÄ… dokumentacijÄ…:
+10.1.	AtaskaitÄ….
 
 
-11.	Papildomi reikalavimai. PÁ kûrimo procesas turi vykti bent 2 etapais (sprintais) naudojant scrum metodologijà:
-11.1.	2015-12-03 Vartotojams suteikiama galimybë— prisijungti prie sistemos ir susikurti startiná profilá. Vartotojas prisijungæs prie sistemos turi matyti savo profilá ir savo rolæ. 
-11.2.	2015-12-10 Vartotojui suteikiama galimybæ sukurti klausimus ir pateikti atsakymus. Vartotojas turi matyti savo atsakymus á klausimus. Administratorius turi matyti visus vartotojus, klausimus ir atsakymus.
+11.	Papildomi reikalavimai. PÄ® kÅ«rimo procesas turi vykti bent 2 etapais (sprintais) naudojant scrum metodologijÄ…:
+11.1.	2015-12-03 Vartotojams suteikiama galimybÄ—â€” prisijungti prie sistemos ir susikurti startinÄ¯ profilÄ¯. Vartotojas prisijungÄ™s prie sistemos turi matyti savo profilÄ¯ ir savo rolÄ™. 
+11.2.	2015-12-10 Vartotojui suteikiama galimybÄ™ sukurti klausimus ir pateikti atsakymus. Vartotojas turi matyti savo atsakymus Ä¯ klausimus. Administratorius turi matyti visus vartotojus, klausimus ir atsakymus.
 11.3.	2015-12-17 Projekto dokumentacijos rengimas.
